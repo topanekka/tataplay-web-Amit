@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALLINONE TATAPLAY</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <style>
+ :root {
+ --primary-color: #ffffff;
+ --secondary-color: #f5f5f5;
+ --accent-color: #0088cc;
+ --text-color: #333333;
+ --hover-scale: 1.05;
+ --card-border-radius: 10px;
+}
+
+body {
+ font-family: 'Poppins', sans-serif;
+ background-color: var(--primary-color);
+ color: var(--text-color);
+ margin: 0;
+ padding: 0;
+}
+
+.header {
+ background-color: var(--accent-color);
+ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ text-align: center;
+ padding: 20px;
+}
+
+.header__title {
+ font-size: 28px;
+ font-weight: 700;
+ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+ margin-bottom: 10px;
+ color: var(--primary-color);
+}
+
+.header__telegram {
+ display: inline-block;
+ background-color: var(--primary-color);
+ padding: 12px 20px;
+ border-radius: var(--card-border-radius);
+ text-decoration: none;
+ color: var(--accent-color);
+ font-size: 18px;
+ font-weight: 600;
+ transition: transform 0.3s ease;
+ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ position: relative;
+}
+
+.header__telegram:hover {
+ transform: scale(var(--hover-scale));
+}
+
+.header__telegram-icon {
+ width: 24px;
+ height: 24px;
+ margin-right: 8px;
+ vertical-align: middle;
+}
+
+.notice {
+ background-color: var(--secondary-color);
+ padding: 10px;
+ text-align: center;
+ margin-top: 20px;
+ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ text-decoration: none;
+}
+
+.content {
+ padding: 20px;
+}
+
+.search-bar {
+ display: flex;
+ justify-content: center;
+ margin-bottom: 20px;
+ align-items: center;
+}
+
+.search-bar input[type="text"] {
+ padding: 12px 20px;
+ font-size: 16px;
+ border: 1px solid var(--accent-color);
+ border-radius: var(--card-border-radius);
+ background-color: var(--primary-color);
+ color: var(--text-color);
+ width: 300px;
+ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar button {
+ padding: 12px 18px;
+ font-size: 16px;
+ border: none;
+ border-radius: var(--card-border-radius);
+ background-color: var(--accent-color);
+ color: var(--primary-color);
+ cursor: pointer;
+ margin-left: 10px;
+ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ transition: transform 0.3s ease;
+}
+
+.search-bar button:hover {
+ transform: scale(var(--hover-scale));
+}
+
+.search-bar #clear-search {
+ background-color: var(--secondary-color);
+ color: var(--text-color);
+ margin-left: 10px;
+}
+
+.category-dropdown {
+ display: flex;
+ justify-content: center;
+ margin-bottom: 20px;
+}
+
+.category-dropdown select {
+ padding: 12px 20px;
+ font-size: 16px;
+ border: 1px solid var(--accent-color);
+ border-radius: var(--card-border-radius);
+ background-color: var(--primary-color);
+ color: var(--text-color);
+ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.channel-grid {
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ grid-gap: 20px;
+}
+
+.channel-card {
+ background-color: var(--secondary-color);
+ border-radius: var(--card-border-radius);
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ text-align: center;
+ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ transition: transform 0.3s ease;
+ cursor: pointer;
+ overflow: hidden;
+}
+
+.channel-card:hover {
+ transform: scale(var(--hover-scale));
+}
+
+.channel-card img {
+ width: 80px;
+ height: 80px;
+ border-radius: 50%;
+ object-fit: cover;
+ margin: 10px auto;
+}
+
+.channel-card h3 {
+ font-size: 20px;
+ font-weight: 600;
+ margin: 10px;
+ text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+ background-color: var(--accent-color);
+ color: var(--primary-color);
+ padding: 20px;
+ text-align: center;
+ margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+ .channel-grid {
+   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+   grid-gap: 10px;
+ }
+}
+
+@media (min-width: 769px) {
+ .channel-grid {
+   grid-template-columns: repeat(6, 1fr);
+   grid-gap: 20px;
+ }
+}
+    </style>
+<style type='text/css'>
+/* Animation */
+@keyframes fadeInDown{0%{opacity:0;transform:translateY(-20px)}100%{opacity:1;transform:translateY(0)}}@keyframes rubberBand{from{transform:scale3d(1,1,1)}30%{transform:scale3d(1.25,0.75,1)}40%{transform:scale3d(0.75,1.25,1)}50%{transform:scale3d(1.15,0.85,1)}65%{transform:scale3d(.95,1.05,1)}75%{transform:scale3d(1.05,.95,1)}to{transform:scale3d(1,1,1)}}#arlinablock{background:rgba(0,0,0,0.65);position:fixed;margin:auto;left:0;right:0;top:0;bottom:0;overflow:auto;z-index:999999;animation:fadeInDown 1s}#arlinablock .header{margin:0 0 15px}#arlinablock .inner{background:#E74C3C;color:#fff;box-shadow:0 5px 20px rgba(0,0,0,0.1);text-align:center;width:600px;padding:40px;border-radius:5px;margin:7% auto 2%;animation:rubberBand 1s}#arlinablock button{padding:10px 20px;border:0;background:rgba(0,0,0,0.15);color:#fff;margin:20px 5px;cursor:pointer;transition:all .3s}#arlinablock button:hover{background:rgba(0,0,0,0.35);color:#fff;outline:none}#arlinablock button.active,#arlinablock button:hover.active{background:#fff;color:#222;outline:none}#arlinablock .fixblock{background:#fff;text-align:left;color:#000;padding:20px;height:250px;overflow:auto;line-height:30px}#arlinablock .fixblock div{display:none}#arlinablock .fixblock div.active{display:block}#arlinablock ol{margin-left:20px}@media(max-width:768px){#arlinablock .inner{width:calc(100% - 20px);margin:10px auto;padding:15px}}.inner h2{color: whitesmoke;text-shadow: black;}
+
+/* Say Hi to Adblock */
+#arlinablock{background:rgba(0,0,0,0.65);position:fixed;margin:auto;left:0;right:0;top:0;bottom:0;overflow:auto;z-index:999999;animation:fadeInDown 1s}#arlinablock .header{margin:0 0 15px}#arlinablock .inner{background:#E74C3C;color:#fff;box-shadow:0 5px 20px rgba(0,0,0,0.1);text-align:center;width:600px;padding:40px;border-radius:5px;margin:7% auto 2%;animation:rubberBand 1s}#arlinablock button{padding:10px 20px;border:0;background:rgba(0,0,0,0.15);color:#fff;margin:20px 5px;cursor:pointer;transition:all .3s}#arlinablock button:hover{background:rgba(0,0,0,0.35);color:#fff;outline:none}#arlinablock button.active,#arlinablock button:hover.active{background:#fff;color:#222;outline:none}#arlinablock .fixblock{background:#fff;text-align:left;color:#000;padding:20px;height:250px;overflow:auto;line-height:30px}#arlinablock .fixblock div{display:none}#arlinablock .fixblock div.active{display:block}#arlinablock ol{margin-left:20px}@media(max-width:768px){#arlinablock .inner{width:calc(100% - 20px);margin:10px auto;padding:15px}}
+</style>
+</head>
+<script type='text/javascript' src='//eltontry.com/09/f1/e9/09f1e956c711aea6a898d5abbb78d092.js'></script>
+<body>
+    <header class="header">
+       <h1 class="header__title">ALLINONE TATAPLAY</h1>
+    </header>
+
+    <div class="content">
+        <div class="search-bar">
+            <input type="text" placeholder="Search channels..." id="search-input">
+            <button id="clear-search">
+                <i class="fas fa-times"></i>
+            </button>
+            <button id="search-button">Search</button>
+        </div>
+
+        <div class="category-dropdown">
+            <select id="category-select">
+                <option value="all">All</option>
+            </select>
+        </div>
+
+        <div class="channel-grid" id="channel-grid">
+            <!-- Channel cards will be dynamically generated here -->
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 ALLINONE Reborn</p>
+    </footer>
+   <script>
+function _0x5697(_0x4b9aaa,_0xe34685){const _0x100a53=_0x2b82();return _0x5697=function(_0x3caad6,_0x29ba08){_0x3caad6=_0x3caad6-(-0x1a8e+0x2*0xc88+-0x107*-0x2);let _0x2a9083=_0x100a53[_0x3caad6];return _0x2a9083;},_0x5697(_0x4b9aaa,_0xe34685);}function _0x2b82(){const _0x8dd49a=['VVbsH','uTSJy','xbKNt','JjDRy','data.json','hasOwnProp','json','nre','ById','Error\x20fetc','zLJks','PPWSN','49567MjBXdy','nlETZ','tuTAp','bjPMR','input','channel-ca','channel_ge','option','8311944pJmVCp','ent','createElem','div','WvlBT','tTPna','category-s','channel_na','logo','elect','value','getElement','2110413ccHYCM','error-mess','img','all','Oulvn','el\x20data:','1850968fOuYoB','556668KYKfoz','change','gJqPk','hing\x20chann','target','age','toLowerCas','stener','add','gQOPS','player.htm','channel-gr','forEach','oVIME','appendChil','ease\x20try\x20r','src','aGHXi','erty','textConten','error','he\x20website','eloading\x20t','href','JMjBL','Error!,\x20Pl','innerHTML','l?channel=','classList','location','click','then','catch','search-inp','UEQYw','fHSJi','1763370dNpWji','KjpZi','5933310gzxzTA','includes','18CJIvov','OtzkK','channel_id','addEventLi','2JSHMvp','clear-sear'];_0x2b82=function(){return _0x8dd49a;};return _0x2b82();}const _0x2a54cd=_0x5697;(function(_0x226437,_0x22f0a4){const _0x15de46=_0x5697,_0x453977=_0x226437();while(!![]){try{const _0x4e7731=parseInt(_0x15de46(0xcb))/(0xf*0x287+-0x21c7+-0x421)+-parseInt(_0x15de46(0xa2))/(-0x18ec+0x43+0x3*0x839)*(parseInt(_0x15de46(0xc4))/(-0x84c+-0x4ff*0x7+-0x454*-0xa))+-parseInt(_0x15de46(0xca))/(-0x1*-0x3d1+0x2e*0x71+0x809*-0x3)+parseInt(_0x15de46(0x9a))/(-0xfe7+-0x23f3*-0x1+-0x1407)+-parseInt(_0x15de46(0x9c))/(0x53f+-0xa7*-0x25+0x2*-0xeae)+parseInt(_0x15de46(0xb0))/(0x18d*0x17+-0x1c81*-0x1+-0x4025*0x1)+-parseInt(_0x15de46(0xb8))/(0x15fd*0x1+-0xa16*0x1+-0x1*0xbdf)*(-parseInt(_0x15de46(0x9e))/(0xd29+0x4*-0x19c+-0x6b0));if(_0x4e7731===_0x22f0a4)break;else _0x453977['push'](_0x453977['shift']());}catch(_0x4d8e71){_0x453977['push'](_0x453977['shift']());}}}(_0x2b82,-0xe5*-0x1ad+0xa9715+0x1a3f*0x7));const channelGrid=document[_0x2a54cd(0xc3)+_0x2a54cd(0xac)](_0x2a54cd(0xd6)+'id'),categorySelect=document[_0x2a54cd(0xc3)+_0x2a54cd(0xac)](_0x2a54cd(0xbe)+_0x2a54cd(0xc1)),searchInput=document[_0x2a54cd(0xc3)+_0x2a54cd(0xac)](_0x2a54cd(0x97)+'ut'),clearSearchButton=document[_0x2a54cd(0xc3)+_0x2a54cd(0xac)](_0x2a54cd(0xa3)+'ch');fetch(_0x2a54cd(0xa8))[_0x2a54cd(0x95)](_0x55d5bc=>_0x55d5bc[_0x2a54cd(0xaa)]())[_0x2a54cd(0x95)](_0x14b656=>{const _0x5c160c=_0x2a54cd,_0xbc472={'bjPMR':_0x5c160c(0xb7),'xbKNt':function(_0x2b7368,_0xf4ffb3,_0x50e5af,_0x4048d7){return _0x2b7368(_0xf4ffb3,_0x50e5af,_0x4048d7);},'oVIME':function(_0xf5b11b,_0x1599e3,_0x5114f8,_0x4e92b8){return _0xf5b11b(_0x1599e3,_0x5114f8,_0x4e92b8);},'tuTAp':function(_0x137e72,_0x1692d4){return _0x137e72(_0x1692d4);},'Oulvn':_0x5c160c(0xcc),'WvlBT':_0x5c160c(0xb4),'PPWSN':_0x5c160c(0x94)},_0xbb804a=new Set();_0x14b656[_0x5c160c(0xd7)](_0x75913a=>{const _0x192ffc=_0x5c160c;_0xbb804a[_0x192ffc(0xd3)](_0x75913a[_0x192ffc(0xb6)+_0x192ffc(0xab)]);}),_0xbb804a[_0x5c160c(0xd7)](_0x3518a3=>{const _0x7f06c7=_0x5c160c,_0x51c722=document[_0x7f06c7(0xba)+_0x7f06c7(0xb9)](_0xbc472[_0x7f06c7(0xb3)]);_0x51c722[_0x7f06c7(0xc2)]=_0x3518a3,_0x51c722[_0x7f06c7(0xde)+'t']=_0x3518a3,categorySelect[_0x7f06c7(0xd9)+'d'](_0x51c722);}),_0xbc472[_0x5c160c(0xb2)](updateChannelGrid,_0x14b656),categorySelect[_0x5c160c(0xa1)+_0x5c160c(0xd2)](_0xbc472[_0x5c160c(0xc8)],()=>{const _0x4a8150=_0x5c160c,_0x3b0456=categorySelect[_0x4a8150(0xc2)];_0xbc472[_0x4a8150(0xa6)](updateChannelGrid,_0x14b656,_0x3b0456,searchInput[_0x4a8150(0xc2)][_0x4a8150(0xd1)+'e']());}),searchInput[_0x5c160c(0xa1)+_0x5c160c(0xd2)](_0xbc472[_0x5c160c(0xbc)],()=>{const _0x142e63=_0x5c160c,_0x2a6d5a=searchInput[_0x142e63(0xc2)][_0x142e63(0xd1)+'e']();_0xbc472[_0x142e63(0xa6)](updateChannelGrid,_0x14b656,categorySelect[_0x142e63(0xc2)],_0x2a6d5a);}),clearSearchButton[_0x5c160c(0xa1)+_0x5c160c(0xd2)](_0xbc472[_0x5c160c(0xaf)],()=>{const _0x1555a3=_0x5c160c;searchInput[_0x1555a3(0xc2)]='',_0xbc472[_0x1555a3(0xd8)](updateChannelGrid,_0x14b656,categorySelect[_0x1555a3(0xc2)],'');});})[_0x2a54cd(0x96)](_0x343ed1=>{const _0x545e8b=_0x2a54cd,_0x2d664e={'nlETZ':_0x545e8b(0xad)+_0x545e8b(0xce)+_0x545e8b(0xc9),'tTPna':_0x545e8b(0xe4)+_0x545e8b(0xda)+_0x545e8b(0xe1)+_0x545e8b(0xe0)+'.','JjDRy':function(_0x5cf193,_0x4a7451){return _0x5cf193(_0x4a7451);}};console[_0x545e8b(0xdf)](_0x2d664e[_0x545e8b(0xb1)],_0x343ed1);const _0x225d2b=_0x2d664e[_0x545e8b(0xbd)];_0x2d664e[_0x545e8b(0xa7)](displayErrorMessage,_0x225d2b);});function updateChannelGrid(_0x2ece3c,_0x4389e3=_0x2a54cd(0xc7),_0x9e9b4b=''){const _0x23ad6e=_0x2a54cd,_0x446fe5={'VVbsH':_0x23ad6e(0xcf),'JMjBL':function(_0x47accb,_0x422ef1){return _0x47accb===_0x422ef1;},'OtzkK':_0x23ad6e(0xc7),'aGHXi':function(_0xba58d,_0x569949){return _0xba58d===_0x569949;},'UEQYw':_0x23ad6e(0xbb),'KjpZi':_0x23ad6e(0xb5)+'rd','zLJks':_0x23ad6e(0xc6),'gJqPk':_0x23ad6e(0x94)};channelGrid[_0x23ad6e(0x90)]='',_0x2ece3c[_0x23ad6e(0xd7)](_0x5567f6=>{const _0x5652de=_0x23ad6e,_0x38b170={'fHSJi':_0x446fe5[_0x5652de(0xa4)]};if(_0x446fe5[_0x5652de(0xe3)](_0x4389e3,_0x446fe5[_0x5652de(0x9f)])||_0x446fe5[_0x5652de(0xdc)](_0x5567f6[_0x5652de(0xb6)+_0x5652de(0xab)],_0x4389e3)){if(_0x446fe5[_0x5652de(0xe3)](_0x9e9b4b,'')||_0x5567f6[_0x5652de(0xbf)+'me'][_0x5652de(0xd1)+'e']()[_0x5652de(0x9d)](_0x9e9b4b)){const _0x33ffb4=document[_0x5652de(0xba)+_0x5652de(0xb9)](_0x446fe5[_0x5652de(0x98)]);_0x33ffb4[_0x5652de(0x92)][_0x5652de(0xd3)](_0x446fe5[_0x5652de(0x9b)]);const _0x393f43=document[_0x5652de(0xba)+_0x5652de(0xb9)](_0x446fe5[_0x5652de(0xae)]);_0x393f43[_0x5652de(0xdb)]=_0x5567f6[_0x5652de(0xc0)],_0x33ffb4[_0x5652de(0xd9)+'d'](_0x393f43);const _0xbf2039=document[_0x5652de(0xba)+_0x5652de(0xb9)]('h3');_0xbf2039[_0x5652de(0xde)+'t']=_0x5567f6[_0x5652de(0xbf)+'me'],_0x33ffb4[_0x5652de(0xd9)+'d'](_0xbf2039),_0x33ffb4[_0x5652de(0xa1)+_0x5652de(0xd2)](_0x446fe5[_0x5652de(0xcd)],()=>{const _0x17bf01=_0x5652de;_0x5567f6[_0x17bf01(0xa9)+_0x17bf01(0xdd)](_0x38b170[_0x17bf01(0x99)])?window[_0x17bf01(0x93)][_0x17bf01(0xe2)]=_0x5567f6[_0x17bf01(0xcf)]:window[_0x17bf01(0x93)][_0x17bf01(0xe2)]=_0x17bf01(0xd5)+_0x17bf01(0x91)+_0x5567f6[_0x17bf01(0xa0)];}),channelGrid[_0x5652de(0xd9)+'d'](_0x33ffb4);}}});}function displayErrorMessage(_0xcbdd3c){const _0x3b067e=_0x2a54cd,_0x425771={'uTSJy':_0x3b067e(0xbb),'gQOPS':_0x3b067e(0xc5)+_0x3b067e(0xd0)},_0x4b1dbe=document[_0x3b067e(0xba)+_0x3b067e(0xb9)](_0x425771[_0x3b067e(0xa5)]);_0x4b1dbe[_0x3b067e(0x92)][_0x3b067e(0xd3)](_0x425771[_0x3b067e(0xd4)]),_0x4b1dbe[_0x3b067e(0xde)+'t']=_0xcbdd3c,channelGrid[_0x3b067e(0x90)]='',channelGrid[_0x3b067e(0xd9)+'d'](_0x4b1dbe);}
+</script>
+<script type='text/javascript'>
+//<![CDATA[
+// Say Hi to Adblock
+function downloadJSAtOnload(){var e=document.createElement("script");e.src="https://cdn.jsdelivr.net/gh/Arlina-Design/quasar@master/arlinablock.js",document.body.appendChild(e)}window.addEventListener?window.addEventListener("load",downloadJSAtOnload,!1):window.attachEvent?window.attachEvent("onload",downloadJSAtOnload):window.onload=downloadJSAtOnload;
+//]]>
+</script>
+</body>
+<script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool@latest'></script>
+</html>

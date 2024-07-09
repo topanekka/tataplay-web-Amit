@@ -156,18 +156,6 @@
       "logo": "https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/TPANML_Thumbnail-v2/TPANML_Thumbnail.png"
     },
     {
-      "channel_id": "556",
-      "channel_name": "SET",
-      "channel_genre": "Entertainment",
-      "logo": "https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-12074-j9oat6qw-v6/imageContent-12074-j9oat6qw-m6.png"
-    },
-    {
-      "channel_id": "15",
-      "channel_name": "SET HD",
-      "channel_genre": "Entertainment",
-      "logo": "https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-43-j5fca4k0-v3/imageContent-43-j5fca4k0-m4.png"
-    },
-    {
       "channel_id": "1183",
       "channel_name": "&Xplor HD",
       "channel_genre": "Movies",

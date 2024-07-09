@@ -183,7 +183,7 @@
     "channel_name": "Disney India HD",
     "channel_genre": "Kids",
     "logo": "https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-1356-j5tdnwmw-v1/imageContent-1356-j5tdnwmw-m1.png",
-    "target" : "https://allinonereborn.tech/web/disn-hd.html"
+    "target" : "https://allinonereborn.tech/web/disney-hd.html"
     },
     {
       "channel_id": "148",

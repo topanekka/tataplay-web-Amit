@@ -180,22 +180,22 @@
       "logo": "https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-499-j5jydp7s-v1/imageContent-499-j5jydp7s-m1.png"
     },
     {
-      "channel_id": "78",
-      "channel_name": "Star Sports 1 HD",
-      "channel_genre": "Sports",
-      "logo": "https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-8301-j7hc0820-v1/imageContent-8301-j7hc0820-m1.png"
+    "channel_name": "Star Sports 1 HD",
+    "channel_genre": "Sports",
+    "logo": "https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-8301-j7hc0820-v1/imageContent-8301-j7hc0820-m1.png",
+    "target" : "https://allinonereborn.com/web/star-sports1.html"
     },
     {
-      "channel_id": "24",
-      "channel_name": "Star Sports 1 Hindi HD",
-      "channel_genre": "Sports",
-      "logo": "https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-60-j5fdr6a0-v1/imageContent-60-j5fdr6a0-m1.png"
+    "channel_name": "Star Sports 1 Hindi HD",
+    "channel_genre": "Sports",
+    "logo": "https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-60-j5fdr6a0-v1/imageContent-60-j5fdr6a0-m1.png",
+    "target" : "https://allinonereborn.com/web/str-sprts-hindi.html"
     },
     {
     "channel_name": "Star Sports 1 Hindi HD (Worldwide)",
     "channel_genre": "Movies",
     "logo": "https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-60-j5fdr6a0-v1/imageContent-60-j5fdr6a0-m1.png",
-    "target" : "https://allinonereborn.com/web/star-sports1.html"
+    "target" : "https://allinonereborn.com/web/str-sprts-hindi.html"
     },
     {
       "channel_id": "267",
